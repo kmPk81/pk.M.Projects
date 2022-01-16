@@ -1,0 +1,25 @@
+import java.io.*;
+
+
+class GFG {
+
+	
+	public static void main(String[] args)
+	{
+
+		
+		StringBuffer s = new StringBuffer("YamahaisYamaha");
+
+		
+		int p = s.length();
+
+		
+		int q = s.capacity();
+
+		
+		System.out.println("Length of string YamahaisYamaha="
+						+ p);
+		System.out.println(
+			"Capacity of string YamahaisYamaha=" + q);
+	}
+}
